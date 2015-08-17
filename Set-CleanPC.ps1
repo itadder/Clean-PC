@@ -16,6 +16,7 @@ param(
 	foreach($computer in $computername){
 		Write-Host $computer
 		Write-Warning "Finding and Cleaning Malware KIT"
+		
 		#excute cmd line scanners set as PS JObs with logging to a log file at the end.
 		#I will create the logic so that each scanners runs / cleans  and logs to a file after it is done.
 	}
