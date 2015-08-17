@@ -30,6 +30,7 @@
   <ItemGroup>
     <Compile Include="README.md" />
     <Compile Include="Script.ps1" />
+    <Compile Include="Set-CleanPC.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
